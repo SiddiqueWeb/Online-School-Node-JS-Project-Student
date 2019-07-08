@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Free Web tutorials">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="John Doe">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Online School - Login</title>
+		
+	<!-- 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/glyphicon.css" /> -->
+		<link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+		<link rel="stylesheet" type="text/css" href="/css/login.css">
+		
+		<script type="text/javascript" src="../js/signin.js" ></script>
+	</head>
+	<body>
+		<div class="full_container">
+			<div class="header_wraper">
+				<div class="header container_center">
+					<div class="logo">
+						<a href="#"><img src="../images/logo.png" alt="Logo" /></a>
+						<a href="#"><h2>Online School</h2></a>
+					</div>
+					<div class="social_media">
+						<ul>
+							<li><a href="#"><img src="../images/icon/facebook.png" alt="Facebook" /></a></li>
+							<li><a href="#"><img src="../images/icon/twitter.png" alt="Twitter" /></a></li>
+							<li><a href="#"><img src="../images/icon/linkedin.png" alt="LinkedIn" /></a></li>
+							<li><a href="#"><img src="../images/icon/youtube.png" alt="Youtube" /></a></li>
+							<li><a href="#"><img src="../images/icon/telegram.png" alt="Telegram" /></a></li>
+							<li><a href="#"><img src="../images/icon/medium.png" alt="Medium" /></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="nav_wraper">
+				<div class="nav container_center">
+					<div class="menu_left">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Academic</a></li>
+							<li><a href="#">Admission</a></li>
+							<li><a href="#">Course</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="menu_right">
+						<ul>
+							<li><a href="login.ejs" id="active" >
+							<span id="" class="glyphicon log_icon glyphicon-user"></span>
+							Login</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="login_wraper">
+				<form name="signinForm"  method="post"  >
+					<div class="login_form">
+						<div class="form_title">
+							<h3> Portal Login Form</h3>
+						</div>
+					<!-- 	<span id="msg"><?php echo $info;?></span> -->
+						<div class="form_content">
+							<div class="content1 content_area">
+															       <input type="text" name="StudentId" placeholder ="Enter Student Id" value=""/>
+							<span id="icon1" ></span>
+							</div>
+							<span id="error1"><?php echo $userid_error;?></span>
+							
+							<div class="content2 content_area">
+																   <input type="password" name="password" placeholder="Enter Password" value=""   />
+								<span id="icon2" ></span>
+							</div>
+							<span id="error2"><?php echo $pass_error;?></span>
+							
+							<div class="content3">
+								<input type="submit" name="submit" value="Submit" />
+								<input type="reset" name="reset" value="Reset" />
+							</div>
+							<div class="forget_pass_link">
+								<a href="forgetPassword.php">Forget Password?</a>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+			<div class="container">
+			</div>
+			<div class="footer_wraper">
+				<div class="footer">
+					<div class="footer_top">
+					</div>
+					<div class="footer_bottom">
+						<div class=" bottom container_center">
+							<p>Copyright 2018-19 &copy; onlineschool.com <br/> &reg All Right Reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

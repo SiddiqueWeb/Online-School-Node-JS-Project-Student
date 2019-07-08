@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>My Profile</title>
+	<link rel="stylesheet" href="../css/myaccount.css" />
+	<link rel="stylesheet" href="../css/studentProfile.css" />
+
+
+
+	<link rel="stylesheet" type="text/css" href="../../css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="../../css/admission.css">
+	<link rel="stylesheet" type="text/css" href="../../css/registration.css">
+	<script type="text/javascript" src="../../js/registration.js" ></script>
+
+
+
+
+</head>
+<body>
+	<div class="full_container">
+		<div class="account_header_wraper">
+			<div class="account_header">
+				<div class="account_logo">
+					<a href="#"><img src="../../images/logo.png" alt="Logo" /></a>
+					<a href="#"><h2>Online School Portal</h2></a>
+				</div>
+				<div class="account_menu_top">
+					<ul>
+						<li><a href="/Result">&#x2630 Courses & Results</a></li>
+						<li><a href="#">&#x27A4 Registration</a></li>
+						<li><a href="/Result">&#x2738 Grade Report</a></li>
+					</ul>
+				</div>
+				<div class="account_menu_icon">
+					<ul>
+						<li><a href="/ChangePassword">&#x274B Change Password</a></li>
+						<li><a href="/logout" style="font-size: 26px;padding-top: 3px;" title="Logout">&#x27A5</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="content_wraper">
+			<div class="content_left">
+				<div class="client_photo">
+					<img src="../../images/profiles/<?php echo $photo;?>" alt="Profile Photo" />
+				</div>
+				<div class="client_name">
+					<p>Welcome, <?php echo $name;?></P>
+				</div>
+				<div class="client_menu_section">
+					<ul>
+						<li><a href="/studentAccount">My Account</a></li>
+						<li><a href="/registration">Registration</a></li>
+						<li><a href="">My Curriculam</a></li>
+						<li><a href="">Finacials</a></li>
+						<li><a href="/Course">Course</a></li>
+						<li><a href="/Result">Results</a></li>
+						<li><a href="/studentProfile" id="active" >Profile</a></li>
+						<li><a href="">Message</a></li>
+						<li><a href="/logout">Logout</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="content_right">
+				
+
+					<div class="Registration_wraper">
+				<form name="registration"  method="post"  >
+					<div class="registration_form">
+						<div class="form_title">
+							<h3>Registration Form</h3>
+						</div>
+						<span id="msg"><?php echo $info;?></span>
+						
+						<div class="form_content">
+
+							<div class="content_area">
+								<input type="text" name="Semester" placeholder="Enter Semester No "  value="" />
+								<span id="icon1"></span>
+							</div>
+							<span id="error1"></span>
+
+							<div class="content_area">
+								<input type="text" name="CourseId" placeholder="Enter Course Id "  value="" />
+								<span id="icon1"></span>
+							</div>
+							<span id="error1"></span>
+							
+							<div class="content_area">
+								<input type="text" name="Course" placeholder="Enter Course Name"  value="" />
+								<span id="icon2"></span>
+							</div>
+							<span id="error2"></span>
+							
+							<!-- <div class="content_area">
+								<input type="text" name="email" placeholder="Enter Email"  value="" />
+								<span id="icon3"></span>
+							</div>
+							<span id="error3"></span> -->
+							
+							<!-- <div class="content_area">
+								<input type="password" name="password" placeholder="Enter Password"  value="" />
+								<span id="icon4"></span>
+							</div>
+							<span id="error4"></span>
+							
+							<div class="content_area">
+								<input type="password" name="cpassword" placeholder="Confirm Password" value="" />
+								<span id="icon5"></span>
+							</div>
+							<span id="error5"></span> -->
+							
+							<!-- <div class="content6">
+								<h3>Gender:</h3>
+								<input type="radio" name="gender" value="male" /> <label for="">Male</label>
+								<input type="radio" name="gender" value="female" /> <label for="">Female</label>
+								<input type="radio" name="gender" value="other" /> <label for="">Other</label>
+							</div> -->
+							<span id="error_msg"></span>
+							
+						<!-- 	<div class="content9">
+								<input type="file" name="photo" />
+								
+							</div>
+							<span id="error_msg"></span> -->
+							
+							<div class="content7">
+								<input type="checkbox" name="check1" value="" id="" />
+								<span id="ck1" >I read All Policies & Rules</span> <br/>
+								<input type="checkbox" name="check2" value="" id="" />
+								<span id="ck1" >I Agree With Privacy & Policies </span>
+							</div>
+							<span id="error_msg"></span>
+							
+							<div class="content8">
+								<input type="submit" name="submit" value="Submit" />
+								<input type="button" name="reset" value="Reset" id="" />
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+		
+		<div class="footer_wraper">
+			<div class="footer container_center">
+				<div class="footer_top">
+				</div>
+				<div class="footer_bottom">
+					<p>Copyright 2018-19 &copy; onlineschool.com <br/> &reg All Right Reserved</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

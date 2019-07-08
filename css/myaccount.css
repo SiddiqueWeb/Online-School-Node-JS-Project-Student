@@ -1,0 +1,241 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #1C2837;
+	background-position: fixed;
+	font-size: 14px;
+}
+
+
+.student_profile{}
+.student_info{
+	color: #E6E9EA;
+	padding: 5px;
+	width: 100%;
+	border-spacing: 0px;
+	margin-top: 50px;
+}
+
+.student_info tr{
+}
+
+.info_col{
+	border-bottom: 1px solid #1C2845;
+	width: 180px;
+	padding: 6px 5px;
+	text-align: right;
+	font-size: 18px;
+}
+
+.info_val{
+	border-bottom: 1px solid #1C2845;
+	width: 480px;
+	padding: 6px 5px;
+	text-align: left;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+#active{
+	background-color: #00b386;
+	color: #fff;
+}
+
+.full_container{
+	width: 1080px;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+.account_header_wraper{
+	background-color: #253344;
+	border-bottom: 2px solid #3b495e;
+	margin-bottom: 5px;
+}
+.account_header{
+	overflow: hidden;
+}
+.account_logo{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+.account_logo img{
+	width: 80px;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-right: 8px;
+	margin-bottom: 5px;
+	float: left;
+	border-right: 2px solid beige;
+}
+.account_logo h2{
+	width: 85px;
+	margin-top: 5px;
+	font-size: 24px;
+	color: #C0C8CA;
+	float: left;
+}
+
+.account_menu_top{
+	width: 488px;
+	float: left;
+	margin-top: 30px;
+}
+.account_menu_top ul{
+	list-style-type: none;
+}
+.account_menu_top ul li{
+	float: left;
+}
+.account_menu_top ul li a{
+	text-decoration: none;
+	color: #C0C8CA;
+	display: block;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+
+.account_menu_top ul li a:hover{
+	color: #fff;
+}
+
+.account_menu_icon{
+	width: 255px;
+	float: right;
+	margin-top: 30px;
+}
+
+.account_menu_icon ul{
+	list-style-type: none;
+}
+.account_menu_icon ul li{
+	float: left;
+}
+.account_menu_icon ul li a{
+	text-decoration: none;
+	color: #C0C8CA;
+	display: block;
+	font-size: 20px;
+	padding: 5px 12px;
+}
+
+.account_menu_icon ul li a:hover{
+	color: #fff;
+}
+
+.content_wraper{
+	border: 1px solid #006666;
+	padding: 5px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.content_left{
+	border: 1px solid #3B495E;
+	width: 280px;
+	height: 750px;
+	background-color: #426873;
+	float: left;
+	margin-right: 10px;
+}
+
+.client_photo{
+	width: 220px;
+	margin: 10px 29px;
+	background-color: #235169;
+	border: 1px solid #14365f;
+}
+
+.client_photo img{
+	width: 186px;
+	height: 210px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #271e63;
+	border: 2px solid #749dc0;
+	vertical-align: middle;
+}
+
+.client_name{
+	width: 254px;
+	margin: 0px 10px 10px 10px;
+	text-align: center;
+	padding: 2px 3px;
+}
+
+.client_name p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.client_menu_section{
+	width: 260px;
+	margin: 0px 10px 5px 10px;
+	border: 1px solid #293D6E;
+	
+}
+.client_menu_section ul{
+	list-style-type: none;
+}
+.client_menu_section ul li{
+	padding: 0px;
+	background-color: #253344;
+	margin: 0px 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-block-start: 0px;
+}
+
+.client_menu_section ul li:first-child{
+	margin-top: 10px;
+}
+
+.client_menu_section ul li a{
+	text-decoration: none;
+	color: #C0C8CA;
+	display: block;
+	font-size: 17px;
+	padding: 6px 0px;
+	
+	
+}
+.client_menu_section ul li a:hover{
+	background-color: #00b386;
+	color: #fff;
+}
+
+.content_right{
+	border: 1px solid #3B495E;
+	width: 754px;
+	height: 730px;
+	background-color: #426873;
+	float: left;
+	padding: 10px;
+}
+
+.footer_wraper{
+	background-color: #1C2845;
+}
+
+.footer{}
+.footer_top{}
+.footer_bottom{
+	padding: 5px 10px;
+	color: #C0C8D3;
+}
+.footer_bottom p{
+	margin: 0px;
+	text-align: center;
+	padding: 10px 5px;
+	font-size: 16px;

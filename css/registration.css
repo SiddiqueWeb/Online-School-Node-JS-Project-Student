@@ -1,0 +1,181 @@
+
+
+/* CSS For Registration_wraper*/
+.Registration_wraper{
+	background-color: #1A2432;
+	padding: 57px 27px 118px 26px;
+	margin-bottom: 50px;
+}
+
+.registration_form{
+	width: 520px;
+	margin: 0px auto;
+	margin-top: 30px;
+	background-color: #253344;
+	border-radius: 10px;
+}
+
+.form_title{
+	width: 520px;
+	height: 65px;
+	margin-bottom: 40px;
+	background-color: #456080;
+	color: #CFD7DA;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.form_title h3{
+	font-size: 22px;
+	margin-top: 15px;
+}
+
+.form_content{
+	
+}
+
+
+.content_area{
+	width: 350px;
+	margin: 5px auto;
+	background-color: #C0C0C0;
+}
+.content_area input{
+	background-color: #C0C0C0;
+	width: 300px;
+	border: 0px;
+}
+.content_area input[placeholder]{
+	font-size: 16px;
+	padding: 6px 5px 7px 10px;
+}
+
+.content5{
+	width: 350px;
+	margin: 5px auto;
+	background-color: #253344;
+}
+
+.content5 input{
+	background-color: #C0C0C0;
+	width: 150px;
+	border: 0px;
+	margin-right: 16px;
+}
+.content5 input:last-child{
+	margin-right: 0px;
+}
+.content5 input[placeholder]{
+	font-size: 16px;
+	padding: 6px 5px 7px 10px;
+}
+.content6{
+	width: 350px;
+	margin: 5px auto;
+	background-color: #253344;
+	color: #F0F0F0;
+}
+
+.content6 label{
+	color: #F0F0F0;
+}
+.content6 h3{
+	display: inline-block;
+	font-weight: normal;
+}
+.content6 input{
+	width: 15px;
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+
+.content7{
+	width: 350px;
+	margin: 5px auto;
+}
+
+.content7 input{
+	
+}
+
+#ck1{
+	color: #F0F0F0;
+	font-size: 17px;
+    margin-left: 2px;
+	position: relative;
+	top: -2px;
+}
+
+.content8{
+	width: 350px;
+	margin: 5px auto;
+}
+
+.content8 input{
+	width: 95px;
+	padding: 8px 0px;
+	background-color: #2d8659;
+	border: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	color: #d9d9d9;
+	margin-right: 115px;
+	margin-bottom: 25px;
+}
+
+.content8 input:last-child{
+	margin-right: 0px;
+	margin-left: 40px;
+}
+
+.content8 input:hover{
+	background-color: #339966;
+	color: #ffffff;
+}
+
+.content9{
+	width: 350px;
+	margin: 5px auto;
+	background-color: #253344;
+	color: #F0F0F0;
+}
+.content9 input{
+	width: 340px;
+}
+
+#error_msg{
+	margin-left: 88px;
+	color: #e60000;
+	font-size: 16px;
+}
+
+#icon1, #icon2, #icon3, #icon4, #icon5{
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+#error1, #error2, #error3, #error4, #error5, #msg{
+	margin-left: 88px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+.footer_wraper{
+	background-color: #1C2845;
+}
+
+.footer{}
+.footer_top{}
+.footer_bottom{
+	padding: 5px 10px;
+	color: #C0C8D3;
+}
+.footer_bottom p{
+	margin: 0px;
+	text-align: center;
+	padding: 10px 5px;
+	font-size: 16px;

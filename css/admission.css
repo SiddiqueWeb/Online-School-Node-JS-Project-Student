@@ -1,0 +1,30 @@
+
+
+.admission_menu_right{
+
+    width: 221px;
+    float: right;
+
+}
+
+.admission_menu_right ul{
+	list-style-type: none;
+}
+
+.admission_menu_right ul li{
+	float: left;
+}
+
+.admission_menu_right ul li a{
+	text-decoration: none;
+	display: block;
+	color: #7D8C9E;
+	font-size: 18px;
+	text-align: center;
+	padding: 6px 21px;
+}
+
+.admission_menu_right ul li a:hover{
+	color: #fff;
+	border-bottom: 4px solid #4A90E2;
+}

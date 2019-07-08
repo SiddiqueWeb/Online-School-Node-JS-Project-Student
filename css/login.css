@@ -1,0 +1,97 @@
+
+.login_wraper{
+	background-color: #1A2432;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 50px;
+}
+
+.login_form{
+	width: 520px;
+	margin: 100px auto;
+	background-color: #253344;
+	border-radius: 10px;
+}
+
+.form_title{
+	width: 520px;
+	height: 65px;
+	margin-bottom: 25px;
+	background-color: #104D65;
+	color: #CFD7DA;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.form_title h3{
+	font-size: 22px;
+	margin-top: 15px;
+}
+
+
+.content_area{
+	width: 350px;
+	margin: 5px auto;
+	background-color: #C0C0C0;
+}
+.content_area input{
+	width: 310px;
+	border: 0px;
+	background-color: #C0C0C0;
+}
+.content_area input[placeholder]{
+	font-size: 16px;
+	padding: 6px 5px 7px 10px;
+}
+
+.content3{
+	width: 350px;
+	margin: 5px auto;
+}
+
+.content3 input{
+	width: 95px;
+	padding: 8px 0px;
+	background-color: #2d8659;
+	border: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	color: #d9d9d9;
+	margin-right: 115px;
+	margin-bottom: 5px;
+}
+
+.content3 input:last-child{
+	margin-right: 0px;
+	margin-left: 40px;
+}
+
+.content3 input:hover{
+	background-color: #339966;
+	color: #ffffff;
+}
+
+.forget_pass_link{
+	width: 350px;
+	margin: 5px auto;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+.forget_pass_link a{
+	text-decoration: none;
+	color: #7D8C9E;
+	font-size: 17px;
+	display: block;
+	margin: 30px 0px;
+}
+
+.forget_pass_link a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+#error1, #error2, #msg{
+	margin-left: 88px;
+	color: #fff;
+	font-size: 16px;
+}

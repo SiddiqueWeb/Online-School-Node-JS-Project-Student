@@ -1,0 +1,292 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #1C2837;
+	background-position: fixed;
+	font-size: 14px;
+}
+
+#active{
+	color: #fff;
+	border-bottom: 4px solid #4A90E2; 
+}
+
+.container_center{
+	width: 1120px;
+	margin: 0px auto;
+}
+
+.full_container{
+}
+
+.header_wraper{
+	background-color: #253344;
+	border-bottom: 2px solid #3b495e;
+}
+
+.header{
+	padding-bottom: 0px;
+	overflow: hidden;
+	
+}
+.logo{
+	width: 450px;
+	float: left;
+	overflow: hidden;
+}
+.logo img{
+	width: 110px;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+.logo h2{
+	float: left;
+	font-size: 26px;
+	color: #C0C8CA;
+	
+    font-weight: bold;
+	margin-top: 35px;
+}
+.social_media{
+	width: 240px;
+	float: right;
+	margin-top: 30px;
+	
+}
+.social_media ul{
+	list-style-type: none;
+}
+.social_media ul li{
+	float: left;
+	margin-right: 8px;
+}
+.social_media ul li a{
+	text-decoration: none;
+}
+.social_media ul li a img{
+	width: 30px;
+}
+
+.nav_wraper{
+	background-color: #253348;
+	border-bottom: 4px solid #45556e;
+	height: 33px;
+}
+
+.nav{
+	overflow: hidden;
+}
+.menu_left{
+	width: 720px;
+	float: left;
+}
+.menu_left ul{
+	list-style-type: none;
+}
+.menu_left ul li{
+	float: left;
+	
+}
+.menu_left ul li a{
+	text-decoration: none;
+	display: block;
+	color: #7D8C9E;
+	font-size: 18px;
+	text-align: center;
+	padding: 6px 22px;
+}
+.menu_left ul li a:hover{
+	color: #fff;
+	border-bottom: 4px solid #4A90E2;
+}
+.menu_right{
+	width: 107px;
+	float: right;
+}
+.menu_right ul{
+	list-style-type: none;
+}
+.menu_right ul li{
+	float: left;
+}
+.menu_right ul li a{
+	text-decoration: none;
+	display: block;
+	color: #7D8C9E;
+	font-size: 18px;
+	text-align: center;
+	padding: 6px 21px;
+}
+.menu_right ul li a img{
+	width: 14px;
+	margin-right: 7px;
+}
+.menu_right ul li a:hover{
+	color: #fff;
+	border-bottom: 4px solid #4A90E2;
+}
+
+.log_icon{
+	color: #fff;
+	font-size: 14px;
+	padding: 0px 2px 0px 0px;
+}
+
+.slider_wraper{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.slidersection{
+	background-color: #3B4656;
+	margin-top: 4px;
+	padding: 10px 0px 10px 0px;
+}
+
+.slider {
+	background-color: #669999;
+	position: relative;
+	margin: 0px auto;
+	width: 982px;
+	border-radius: 5px;
+}
+
+.content_wraper{
+	margin-bottom: 10px;
+	
+}
+
+.content{
+	overflow: hidden;
+	
+}
+
+.article1{
+	width: 655px;
+	color: #fff;
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: #3B4656;
+}
+.article1 h2{
+	margin-bottom: 10px;
+}
+.article1 p{
+	text-align: justify;
+}
+
+.article2{
+	width: 415px;
+	color: #fff;
+	float: left;
+	padding: 10px;
+	background-color: #3B4656;
+}
+.article2 h2{
+	margin-bottom: 10px;
+}
+.article2 p{
+	text-align: justify;
+}
+
+.footer_wraper{
+	overflow: hidden;
+}
+
+.footer{
+}
+
+.footer_top{
+	background-color: #253344;
+	border-bottom: 3px solid #1FA363;
+}
+
+.top{
+	overflow: hidden;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	border-left: 1px solid #273D72;
+	border-right: 1px solid #273D72;
+}
+
+.footer_top_title{
+	height: 40px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.footer_top_title h3{
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.team{
+	width: 750px;
+	margin: 0px auto;
+	padding: 5px;
+}
+
+.member{
+	width: 200px;
+	float: left;
+	margin-right: 50px;
+}
+
+.member img{
+	width: 200px;
+	border-radius: 50%;
+}
+
+.member h3{
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.member  ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin-left: 50px;
+}
+
+.member  ul li{
+	float: left;
+	margin-right: 10px;
+}
+.member  ul li a{
+	text-decoration: none;
+}
+
+.member  ul li a img{
+	width: 25px;
+}
+
+.footer_bottom{
+	background-color: #1C2845;
+	border-bottom: 3px solid #FABA8E;
+}
+
+.bottom{
+	padding: 5px 0px;
+	color: #C0C8D3;
+	border-left: 1px solid #273D72;
+	border-right: 1px solid #273D72;
+}
+
+.footer_bottom p{
+	margin: 0px;
+	text-align: center;
+	padding: 10px 5px;
+	font-size: 16px;
+}
